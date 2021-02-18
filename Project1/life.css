@@ -83,7 +83,7 @@ CSS for the center button to transform when hovered over.
 */
 button.again:hover{
 	transform: translateY(4px);
-	box-shadow: 0 5px #666;
+	box-shadow: 0 6px #666;
 }
 
 /*
@@ -117,7 +117,7 @@ CSS for the button to translate down 4px when hovered and decrease the box-shado
 */
 button.choice1:hover{
 	transform: translateY(4px);
-	box-shadow: 0 5px #666;
+	box-shadow: 0 6px #666;
 }
 
 /*
@@ -132,6 +132,36 @@ CSS for the second choice to transition 0.75 seconds after hovering.
 */
 button.choice2:hover{
 	transition: 0.75s;
+}
+
+button.choice3{
+	transform: translateY(4px);
+	box-shadow: 0 6px #666;
+	transition: 0.75s;
+}
+
+button.center{
+	clear: both;
+	margin: auto;
+	margin-bottom: 1em;
+	animation-name: choices;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	transition: 0.75s;
+}
+
+@keyframes choices{
+	from{
+		background-color: #660066;
+	}
+	to{
+		background-color: darkblue;
+	}
+}
+
+button.center:hover{
+	transform: translateY(6px);
+	box-shadow: 0 6px #666;
 }
 
 span#failed{
