@@ -63,7 +63,7 @@ button{
 	text-align: center;
 	color: #fff;
 	background-color: #660066;
-	box-shadow: 0 9px #999;
+	box-shadow: 0 8px #999;
 }
 
 /*
@@ -173,4 +173,11 @@ span#won{
 	color: green;
 	font-weight: bold;
 	font-style: underline;
+}
+
+
+div.summary{
+	background-color: #e6ccff;
+	color: black;
+	padding: 5px;
 }
