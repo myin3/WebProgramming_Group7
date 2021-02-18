@@ -37,6 +37,22 @@ img{
 	display: block;
 	margin: auto;
 	height: 300px;
+
+}
+
+img:hover{
+	animation-name: images;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes images{
+	0% 100% {
+		transform: translate(0px);
+	}
+	50%{
+		transform: translate(30px);
+	}
 }
 
 /*
@@ -131,7 +147,7 @@ button.choice2{
 CSS for the second choice to transition 0.75 seconds after hovering.
 */
 button.choice2:hover{
-	transition: 0.75s;
+	transition-duration: 0.75s;
 }
 
 button.choice3{
