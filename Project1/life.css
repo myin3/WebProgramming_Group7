@@ -1,4 +1,5 @@
 
+
 /*
 Body css to change the background color, font color, and font style.
 */
@@ -7,6 +8,19 @@ body{
 	color: darkblue;
 	font-family: sans-serif;
 }
+
+/*
+Container to hold questions and image centered in the page, with a different background color to make text easier to read.
+*/
+.question{
+	width:70%;
+	height:70%;
+	margin:auto;
+	background-color: lightgray;
+	padding:50px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
 
 /*
 H1 css to change the font to be bold and align the text to the center.
@@ -22,16 +36,17 @@ Center the image and set the height to 400px. The width is auto-adjusted.
 img{
 	display: block;
 	margin: auto;
-	height: 400px;
+	height: 300px;
 }
 
 /*
 Css for the main containing the answer choices and centering them.
 */
 main{
-	padding-top: 150px;
+	padding-top:50px;
+	padding-bottom:50px;
 	display: block;
-	margin: auto;
+	margin: 0;
 }
 
 /*
@@ -44,7 +59,7 @@ button{
 	width: 50%;
 	display: block;
 	padding: 10px 20px;
-	font-size: 30pt;
+	font-size: 20pt;
 	text-align: center;
 	color: #fff;
 	background-color: #660066;
@@ -123,4 +138,9 @@ span#failed{
 	color: red;
 	font-weight: bold;
 	font-style: italic;
+}
+span#won{
+	color: green;
+	font-weight: bold;
+	font-style: underline;
 }
