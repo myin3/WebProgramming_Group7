@@ -236,7 +236,7 @@ Lose = Red/Burgundy
   position:fixed;
   right:-50%;
   top:0;
-  z-index:-1;
+  z-index: -1;
 }
 
 .Lose2 {
